@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menumobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'none'
+                }else{
+                    document.querySelector(".menu nav ul").style.display = 'flex'
+                }
+            });
+        };
+    </script>
+    <title>LANDING PAGE</title>
+</head>
+<body>
+
+    <!-- cabecario -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/apple.png" alt="logo">
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menumobile">
+                        <div class="line-menu"></div>
+                        <div class="line-menu"></div>
+                        <div class="line-menu"></div>
+                    </div>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Especificações</a></li>
+                        <li><a href="">Comprar</a></li>
+                        <li><a href="">Beneficios</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- area do produto -->
+
+    <section>
+        <div class="container">
+            <div class="info-produto">
+                <h1>14 Pro</h1>
+                <p>Uma nova forma de interação no iPhone. Um recurso essencial de segurança projetado para salvar vidas. Câmera inovadora de 48 MP que revela detalhes impressionantes. Tudo com a potência do chip para smartphone que é o máximo.</p>
+            </div>
+            <div class="image-produto">
+                <img src="assets/images/14pro.png" alt="image do produto">
+            </div>
+            <div class="nome-preco">
+                <h2>iPhone 14 Pro e iPhone 14 Pro Max</h2>
+                <p>A partir de R$ 791,58/mês ou R$ 9.499*</p>
+                <button>COMPRAR</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="info-footer">
+                <div class="dimen">
+                    <img src="assets/images/store..jpg" alt="store">
+                </div>
+                <div class="dimen">App Store. Oferece por volta de 1,8 milhão de apps, e cada um deles atende aos mais altos padrões de privacidade.</div>
+            </div>
+            <div class="info-footer">
+                <div class="dimen">
+                    <img src="assets/images/active.jpg" alt="active">
+                </div>
+                <div class="dimen">Apple Fitness+. Milhares de treinos, mesmo se você ainda não tiver um Apple Watch7.</div>
+            </div>
+            <div class="info-footer">
+                <div class="dimen">
+                    <img src="assets/images/watch.jpg" alt="watch">
+                </div>
+                <div class="dimen">Apple Watch. Faz com que o iPhone que você não consegue encontrar emita um som. E vice-versa.</div>
+            </div>
+        </div>
+        <div class="container flex">
+            <div class="direitos">
+                BY - FELIPE ROCHA
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
